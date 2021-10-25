@@ -1,0 +1,47 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    height: 100px;
+    background-color: blue;
+    color: #fff;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+    margin: 10px;
+    width: 30%;
+    background-color: pink;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+.menu-wrapper{
+    display: flex;
+}
+.post-wrapper{
+    width: 70%;
+}
+.post{
+    background-color: orchid;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    margin: 10px;
+}
+.footer{
+    height: 100px;
+    background-color: aquamarine;
+    color: #fff;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

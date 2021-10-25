@@ -1,0 +1,24 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.upper{
+    background-color: azure;
+    height: 400px;
+    text-align: center;
+}
+.lower{
+    display: flex;
+    justify-content: space-between;
+}
+.left-bar{
+    text-align: center;
+    height: 300px;
+    width: 70%;
+    background-color: darkorange;
+}
+.right-bar{
+    text-align: center;
+    width: 30%;
+    background-color: aqua;
+}
