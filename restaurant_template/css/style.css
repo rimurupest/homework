@@ -1,0 +1,228 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'Tinos', serif;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    position: relative;
+    height: 100vh;
+    background: url("../image/bg.png") no-repeat top center/cover;
+}
+
+.header__top {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    column-gap: 23px;
+    padding-right: 25px;
+    border-right: 2px solid #FFFFFF;
+}
+
+.nav__btn_mobile {
+    display: none;
+    width: 30px;
+}
+
+.nav__btn_mobile span {
+    height: 3px;
+    background-color: #FF7400;
+    border-radius: 2px;
+}
+
+.nav__item a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.nav__item img {
+    width: 20px;
+}
+
+.header__contact {
+    display: flex;
+    align-items: center;
+    column-gap: 45px;
+}
+
+.header__phone {
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 25px;
+    width: 160px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.header__phone p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.header__button {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    background-color: #FF7400;
+    padding: 14px 19px;
+    border: none;
+    cursor: pointer;
+}
+
+.header__title {
+    text-align: center;
+}
+
+.header__title h2 {
+    font-size: 50px;
+    line-height: 57px;
+    color: #D67E35;
+}
+
+.header__title h1 {
+    font-size: 80px;
+    line-height: 92px;
+    color: #D67E35;
+}
+
+.header__title p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.header__title p::before,
+.header__title p::after {
+    content: "";
+    display: block;
+    width: 61px;
+    height: 2px;
+    background-color: #C4C4C4;
+    margin: 10px;
+}
+
+.header__main .header__button {
+    margin-top: 35px;
+}
+
+.header__main {
+    position: absolute;
+    top: 320px;
+    left: 175px;
+}
+
+.main {
+    height: 300px;
+    position: relative;
+}
+
+.main__story {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    column-gap: 25px;
+    position: absolute;
+    top: -110px;
+}
+
+.main__story_item {
+    padding: 0 10px;
+    width: 350px;
+    height: 330px;
+    background-color: #FFFFFF;
+    text-align: center;
+    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+}
+
+.main__story_item h3 {
+    margin-top: 5px;
+    font-size: 26px;
+    line-height: 30px;
+    color: #2C2C2C;
+}
+
+.main__story_item p {
+    margin-top: 20px;
+    font-size: 26px;
+    line-height: 30px;
+    color: #656363;
+}
+
+.main__story_item img {
+    margin-top: 45px;
+}
